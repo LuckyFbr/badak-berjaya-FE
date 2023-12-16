@@ -1,0 +1,701 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* * {
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: black;
+} */
+
+/*Login CSS*/
+
+.BackrgoundLogin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/src/assets/bg_form.JPG");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: -700px;
+  filter: hue-rotate(0deg);
+}
+
+.BackrgoundOverlay {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(205, 16, 12, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.WrapperForm {
+  padding-top: 200px;
+}
+
+.FormWrapper {
+  background-color: white;
+  width: 450px;
+  padding: 20px;
+  border-radius: 6px;
+  position: absolute;
+}
+
+.FormHeader {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.LogoBadak {
+  width: 100px;
+  height: 100px;
+}
+
+.LoginButton {
+  margin-top: 20px;
+}
+
+.InputForm {
+  margin-top: 20px;
+}
+
+.form {
+  padding-bottom: 2px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.CheckSan {
+  margin-top: 4px;
+}
+
+.checkbox {
+  font-size: 12px;
+}
+
+.LoginButton Button {
+  width: 100%;
+  background-color: #e90e09;
+  color: white;
+}
+.LoginButton Button:hover {
+  background-color: #c30c09;
+  color: white;
+}
+.LoginButton Button:active {
+  background-color: orange;
+  color: white;
+}
+.LupaKataSandi {
+  color: #cd100c;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: right;
+  text-decoration: none;
+}
+
+.BuatSekarang {
+  color: #cd100c;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: right;
+  text-decoration: none;
+}
+
+.BuatAkun {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/*Make Account CSS*/
+
+.BackrgoundMakeAccount {
+  background-color: #cd100c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form {
+  margin-top: 4px;
+}
+
+.FormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FormWrapper2 {
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+}
+
+.GambarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.GambarAnimasi {
+  width: 600px;
+  height: 600px;
+}
+
+.RowLogin {
+  height: 100vh;
+}
+
+/*Main page*/
+
+.MainBG {
+  background-color: white;
+  height: 100%;
+}
+
+.NavConatiner {
+  background-color: #e90e09;
+  height: 100%;
+}
+
+.NavWrapper {
+  /* background-color: #e47371; */
+  height: 100vh;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.HeaderNavbar {
+  padding-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.BadakImgNavbar {
+  width: 40px;
+}
+
+.HeaderText {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.Nav {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.listNav {
+  list-style: none;
+}
+
+.NavText {
+  padding: 14px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+/* .active-menu {
+  background-color: rgba(255, 254, 254, 0.3);
+  border-radius: 10px;
+} */
+
+.NavIconWrapper:hover {
+  background-color: rgba(255, 254, 254, 0.3);
+  border-radius: 10px;
+}
+
+.Navtext :hover {
+  color: blue;
+}
+
+.NavIcon {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+}
+
+/*Halaman SIM & SKCK*/
+.AlurWrapper {
+  width: 550px;
+  height: 400px;
+}
+
+.Row1 {
+  /* width: 100%; */
+}
+
+.TittleSection {
+  display: flex;
+  color: black;
+}
+
+/*mainpage*/
+
+.bodyMainPage {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.MainWrapper {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+.RowMainpage {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper-menu {
+  background-color: #ffffff;
+}
+
+.vertical-line {
+  border-left: 1px solid #e90e09;
+  height: 100%; /* atur tinggi sesuai kebutuhan */
+}
+
+.horizontal-line {
+  border-top: 1px solid #e90e09;
+  margin-top: 20px;
+}
+
+.Row-Antrian {
+  padding-top: 6px;
+}
+.Logo-Antrian {
+  width: 100%;
+  height: 100%;
+  opacity: 0.1;
+}
+.No-urut-antrian {
+  position: absolute;
+  left: 1200;
+  top: 400;
+  font-size: 100px;
+}
+.No-urut-antrian-Skck {
+  position: absolute;
+  left: 1400;
+  top: 400;
+  font-size: 100px;
+}
+.Antrian {
+  background-color: #d9d9d9;
+  height: 224px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.MenuSectionText {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.UserTextWrapper {
+}
+
+.GreetingText {
+  margin-top: 20px;
+}
+
+.UserText {
+}
+
+.TextMenu {
+  color: black;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.boximage {
+  background-color: #e90e09;
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.MenuIconWrapper {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: red;
+}
+
+/*navbar v2*/
+
+.HeaderOffcanvas {
+  background-color: #e90e09;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.BadakImgOffcanvas {
+  height: 40px;
+  width: 40px;
+}
+
+.HeaderTextOffCanvas {
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.BurgerMenu-Btn {
+  margin: 20px;
+  padding: 6px;
+  background-color: #e90e09;
+  outline-width: 3px;
+  outline-style: solid;
+  outline-color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+.Nav-Item {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+/* Survei */
+.GambarErrorWrapper {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.GambarError {
+  width: 400px;
+  height: 400px;
+}
+
+/* Profile */
+.Wrapper-Gambar-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Profile-Wrapper {
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+.Gambar-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: darkgray;
+  margin-bottom: 10px;
+}
+.Data-Pribadi {
+  margin-top: 10px;
+}
+.Data-Alamat {
+  margin-top: 10px;
+}
+
+/* notifikassi */
+
+.Notifikasi {
+  width: 100%;
+  outline-width: 1px;
+  outline-style: solid;
+  outline-color: rgb(151, 151, 151);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-notifikasi {
+  padding: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+.arrow-wrapper {
+  padding-right: 20px;
+}
+
+/*survei*/
+.btn-survei {
+  width: 100%;
+}
+
+/*Notifikasi*/
+.text-urut-wrapper {
+  position: absolute;
+  left: 29%;
+  top: 28%;
+  text-align: center;
+}
+.text-urut1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.text-urut2 {
+  font-weight: 600;
+}
+.text-urut3 {
+  font-size: 70px;
+  font-weight: 600;
+}
+@media (max-width: 500px) {
+  #container1 {
+    display: none;
+  }
+
+  #box {
+    display: none;
+  }
+  #menuutama {
+    display: none;
+  }
+  #hr {
+    display: none;
+  }
+  #navbar {
+    display: none;
+  }
+
+  /*Login Page*/
+  .FormWrapper {
+    background-color: white;
+    width: 370px;
+    padding: 20px;
+    border-radius: 4px;
+  }
+
+  /* Semua css di dalam blok ini akan diterapkan saat lebar layar perangkat berukuran di bawah atau sama dengan 960px */
+  .GambarAnimasi {
+    width: 200px;
+    height: 200px;
+  }
+
+  .Row1 {
+    /* width: 100%; */
+  }
+
+  /*Halaman SIM*/
+  .AlurWrapper {
+    width: 368px;
+    height: 300px;
+  }
+
+  /*Main page*/
+  .boximage {
+    width: 100%;
+    height: 150px;
+  }
+
+  .UserTextWrapper {
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+
+  .GreetingText {
+    font-size: 16px;
+  }
+
+  .UserText {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .boxMobile {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 14px;
+  }
+
+  .MenuSectionText {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .TextMenu {
+    font-size: 14px;
+    margin-top: 6px;
+  }
+
+  .MenuIcon {
+    height: 55px;
+    width: 55px;
+  }
+
+  .bodyMainPage {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+  }
+
+  .bodyMainPageV2 {
+    width: 100%;
+    background-color: #ffffff;
+  }
+
+  .wrapper-menu {
+    background-color: #ffffff;
+    border-radius: 14px 14px 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+  }
+  /* Survei */
+
+  .GambarError {
+    width: 300px;
+    height: 300px;
+  }
+
+  .backgroundApp {
+    background-color: #e90e09;
+  }
+  .backgroundAppV2 {
+    background-color: #ffffff;
+  }
+
+  .Upper-Menu {
+    margin-bottom: 20px;
+  }
+  .Bottom-Menu {
+    margin-bottom: 20px;
+  }
+  .NavMenuWrapper {
+    color: black;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .NavMobile {
+    padding-top: 20px;
+  }
+  .NavigasiBottom {
+    background-color: #ffffff;
+    box-shadow: 0px -1px 30px 0px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  .Pannic-Button {
+    width: 100%;
+    background-color: #e90e09;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 0;
+  }
+  .Header-Wrapper-Mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e90e09;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    gap: 4px;
+    color: 0;
+    top: 0;
+    color: #ffffff;
+  }
+  .Header-Mobile {
+    height: 40px;
+    width: 40px;
+  }
+  .Header-Text-Mobile {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .Content {
+    padding-bottom: 100px;
+  }
+
+  .text-urut-wrapper {
+    position: absolute;
+    left: 18%;
+    top: 38%;
+    text-align: center;
+  }
+  .text-urut1 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .text-urut2 {
+    font-weight: 600;
+  }
+  .text-urut3 {
+    font-size: 70px;
+    font-weight: 600;
+  }
+}
